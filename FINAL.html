@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, width=device-width">
+
+    <link rel="stylesheet" href="./designs.css">
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400&display=swap">
+    <title>FINALS</title>
+</head>
+<header>
+    <div class="frame-wrapper">
+        <div class="frame-container">
+            <img class="frame-item" loading="lazy" alt="" src="./public/libertee.svg">
+        </div>
+        <button class="image-button">
+            <img src="./public/search.svg" alt="Image Button">
+        </button>
+        <button class="image-button">
+            <img src="./public/bag.svg" alt="Image Button">
+        </button>
+        <a href="#" class="button-container">Contact & FAQ</a>
+        <a href="#" class="button-container2" style="position: relative; left:-3.3in;">Shop</a>
+    </div>
+</header>
+<body>
+    <br><br><br><br>
+    <div class="container">
+        <!--Carousel Container-->
+        <div class="slider" align="center">
+            <div class="slides">
+              <img src="./public/shirts.png" alt="Image 1" style="height: 5in; width: 5in;">
+              <img src="./public/shirts2.png" alt="Image 2" style="height: 5in; width: 5in;">
+              <img src="./public/tote.png" alt="Image 3" style="height: 5in; width: 5in;">
+            </div>
+            <button class="button1 prev" onclick="showPrevSlide()">❮</button>
+            <button class="button1 next" onclick="showNextSlide()">❯</button>
+            <div class="indicators">
+              <div class="indicator" onclick="jumpToSlide(0)"></div>
+              <div class="indicator" onclick="jumpToSlide(1)"></div>
+              <div class="indicator" onclick="jumpToSlide(2)"></div>
+            </div>
+          </div><br><br>    
+          <a href="#" class="button-container2" style="position: relative; left: 6.1in">Shop</a>
+    </div>
+
+    <br>
+    <div align="center" style="font-family: Segoe UI;">
+    <h3>SHOP OUR MERCH AT:</h3>
+    <div class="container3">
+        <p style="font-family: cursive;">www.liberteeph.com</p>
+        <a href="#" class="button2">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"/></svg>
+        </a>
+      </div>
+    </div>
+    <br><br>
+    
+    <div align="center">
+        <h1 style="font-family: monospace; font-size: 0.7in;">What is <div style="color: #ffb300;">LIBERTEE?</div></h1>
+    <div class="container4">
+        <p>Libertee redefines comfort and style with its innovative clothing and bag collections. Each piece is crafted for everyday comfort and designed to seamlessly blend into any lifestyle. From breathable fabrics that feel like a second skin to bags that marry functionality with contemporary aesthetics, Libertee empowers individuals to express themselves effortlessly. With a commitment to quality and sustainability, Libertee ensures that every garment and accessory not only looks good but also feels good, making it the perfect choice for those who prioritize comfort without compromising on style.</p>
+      </div>
+    </div>
+
+    <h2 style="position: absolute; left: 3.2in;">Choose your style:</h2>
+    <br><br><br>
+    <div class="button-grid">
+        <a href="#">
+          <div class="button3">
+            <img src="public/prod1.png" alt="Button 1">
+          </div>
+        </a>
+        <a href="#">
+          <div class="button3">
+            <img src="public/prod2.png" alt="Button 2">
+          </div>
+        </a>
+        <a href="#">
+          <div class="button3">
+            <img src="public/prod3.png" alt="Button 3">
+          </div>
+        </a>
+        <a href="#">
+          <div class="button3">
+            <img src="public/prod4.png" alt="Button 4">
+          </div>
+        </a>
+        <a href="#">
+          <div class="button3">
+            <img src="public/prod5.png" alt="Button 5">
+          </div>
+        </a>
+        <a href="#">
+          <div class="button3">
+            <img src="public/prod6.png" alt="Button 6">
+          </div>
+        </a>
+        <a href="#">
+          <div class="button3">
+            <img src="public/prod7.png" alt="Button 7">
+          </div>
+        </a>
+        <a href="#">
+          <div class="button3">
+            <img src="public/prod8.png" alt="Button 8">
+          </div>
+        </a>
+      </div>
+    </div>
+    
+      <br><br><br>
+      <div align="center">
+      <div class="container5">
+        <h2 style="font-family: cursive; font-weight: bolder;">REVIEWS</h2>
+        <div class="carousel-buttons">
+          <button class="carousel-button left-button arrow-left" onclick="prevSlide()"></button>
+          <button class="carousel-button right-button arrow-right" onclick="nextSlide()"></button>
+        </div>
+        <div class="cards">
+          <div class="card"><img src="public/star.svg"><br><br><h2 style="font-family: Arial narrow bold;">Amazing Quality!</h2><div style="font-family: cursive;">I've never been so pleased with a purchase! The fabric is incredibly soft, and the fit is perfect. This shirt quickly became my favorite. Highly recommend!</div><h3 style="font-family: cambria;">-Ianne V.</h3></div>
+          <div class="card"><img src="public/star.svg"><br><br><h2 style="font-family: Arial narrow bold;">Perfect Fit!</h2><div style="font-family: cursive;">I was worried about ordering online, but these pants fit like they were tailor-made for me. They're comfortable, stylish, and exactly what I needed.</div><h3 style="font-family: cambria;">-Yuuki P.</h3></div>
+          <div class="card"><img src="public/star.svg"><br><br><h2 style="font-family: Arial narrow bold;">Stylish and Comfortable!</h2><div style="font-family: cursive;">These outfits are fantastic. They look great and feel even better. I get compliments every time I wear them. Will definitely be buying more.</div><h3 style="font-family: cambria;">-Anton A.</h3></div>
+          <div class="card"><img src="public/star.svg"><br><br><h2 style="font-family: Arial narrow bold;">Great for Casual Occasions!</h2><div style="font-family: cursive;">This shirts is versatile enough to wear to work or a night out. The material is high-quality, and it fits beautifully. Very happy with my purchase!</div><h3 style="font-family: cambria;">-Diego R.</h3></div>
+          <div class="card"><img src="public/star.svg"><br><br><h2 style="font-family: Arial narrow bold;">Exceeded Expectations!</h2><div style="font-family: cursive;">I was blown away by the quality of this jacket. It's warm, stylish, and fits perfectly. It's quickly become a staple in my wardrobe.</div><h3 style="font-family: cambria;">-Angela E.</h3></div>
+          <div class="card"><img src="public/star.svg"><br><br><h2 style="font-family: Arial narrow bold;">Perfect for Everyday Wear!</h2><div style="font-family: cursive;">These t-shirts are exactly what I was looking for. They're comfortable, durable, and look great after multiple washes. Excellent value for the price.</div><h3 style="font-family: cambria;">Eren J.</h3></div>
+          <div class="card"><img src="public/star.svg"><br><br><h2 style="font-family: Arial narrow bold;">Beautiful Design!</h2><div style="font-family: cursive;">The design of this blouse is stunning. It’s unique and elegant, and the craftsmanship is top-notch. I get so many compliments whenever I wear it.</div><h3 style="font-family: cambria;">-Furina F.</h3></div>
+          <div class="card"><img src="public/star.svg"><br><br><h2 style="font-family: Arial narrow bold;">Super Comfortable!</h2><div style="font-family: cursive;">These long sleeves are the most comfortable I've ever worn. They’re perfect for working out or just lounging around the house. I’ll definitely be getting more.</div><h3 style="font-family: cambria;">-Hu Tao</h3></div>
+          <div class="card"><img src="public/star.svg"><br><br><h2 style="font-family: Arial narrow bold;">Great Value!</h2><div style="font-family: cursive;">For the price, you can't beat these shirts. They're well-made, fit perfectly, and are super comfortable. I’m very impressed with the quality.</div><h3 style="font-family: cambria;">-Jinhsi</h3></div>
+          <div class="card"><img src="public/star.svg"><br><br><h2 style="font-family: Arial narrow bold;">Highly Recommend!</h2><div style="font-family: cursive;">I absolutely love this sweater. It’s cozy, stylish, and looks great with everything. It’s become a favorite piece in my closet. Highly recommend!</div><h3 style="font-family: cambria;">-Kaori M.</h3></div>
+        </div>
+        </div> 
+    </div>
+        <footer class="footer">
+        <div class="footer-container">
+        
+        <h1 style="font-family: impact; font-size: 40px;">STAY IN CONTACT</h1>
+        <p style="font-family: cursive; text-align: center;">Join our email list for promotions, giveaways, and other communications from the cool ppl.</p>
+        
+        <!--Search Bar-->
+        <div class="email-search-container">
+            <input type="email" id="emailInput" placeholder="Enter your email">
+            <button onclick="searchEmail()" class="submit-button">Submit</button>
+            <p id="errorText" class="error-message"></p>
+        </div>
+        
+            <script src="script.js"></script>
+        </div>
+        </div>
+        <div class="button-grid">
+            <a href="#">
+              <div class="button3">
+                <img src="public/fb.png" alt="Button 1">
+              </div>
+            </a>
+            <a href="#">
+              <div class="button3">
+                <img src="public/ig.png" alt="Button 2">
+              </div>
+            </a>
+            <a href="#">
+              <div class="button3">
+                <img src="public/tiktok.png" alt="Button 3">
+              </div>
+            </a>
+        <div style="position: absolute; right: 50px;">
+        <img src="public/libertee.svg">
+        </div>
+        </footer>
+    
+
+
+    <script>
+        let currentIndex = 0;
+        const slides = document.querySelector('.slides');
+        const totalSlides = document.querySelectorAll('.slides img').length;
+        const indicators = document.querySelectorAll('.indicator');
+    
+        function updateIndicators() {
+          indicators.forEach((indicator, index) => {
+            indicator.classList.toggle('active', index === currentIndex);
+          });
+        }
+    
+        function showNextSlide() {
+          currentIndex = (currentIndex + 1) % totalSlides;
+          const offset = -currentIndex * 100;
+          slides.style.transform = `translateX(${offset}%)`;
+          updateIndicators();
+        }
+    
+        function showPrevSlide() {
+          currentIndex = (currentIndex - 1 + totalSlides) % totalSlides;
+          const offset = -currentIndex * 100;
+          slides.style.transform = `translateX(${offset}%)`;
+          updateIndicators();
+        }
+    
+        function jumpToSlide(index) {
+          currentIndex = index;
+          const offset = -currentIndex * 100;
+          slides.style.transform = `translateX(${offset}%)`;
+          updateIndicators();
+        }
+    
+        function startAutoSlide() {
+          setInterval(showNextSlide, 5000); // Change image every 5 seconds
+        }
+    
+        updateIndicators();
+        startAutoSlide();
+
+        //Email function
+        function searchEmail() {
+    const emailInput = document.getElementById('emailInput');
+    const errorMessage = document.getElementById('errorText');
+    const email = emailInput.value.trim();
+
+    // Regular expression for validating email
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+    if (email === '') {
+        errorMessage.textContent = 'Please enter an email address.';
+    } else if (!emailRegex.test(email)) {
+        errorMessage.textContent = 'Please enter a valid email address.';
+    } else {
+        // Reset error message
+        errorMessage.textContent = '';
+
+        // Perform search or submit action here
+        console.log('Submitting email:', email);
+        // Replace with your submit logic
+    }
+}
+
+        //Reviews Slider Card
+        let currentIndex1 = 0;
+            const cards = document.querySelector('.cards');
+            const indicatorDots = document.querySelectorAll('.indicator-dot');
+            const totalCards = document.querySelectorAll('.card').length;
+            const visibleCards = 3;
+            const totalIndicators = Math.ceil(totalCards / visibleCards);
+
+        function nextSlide() {
+            currentIndex1 = (currentIndex1 + 1) % totalCards;
+            updateSlider();
+        }
+
+        function prevSlide() {
+            currentIndex1 = (currentIndex1 - 1 + totalCards) % totalCards;
+            updateSlider();
+        }
+
+        function updateSlider() {
+            const slideWidth = document.querySelector('.card').offsetWidth;
+            const slideOffset = currentIndex1 * slideWidth;
+            cards.style.transform = `translateX(-${slideOffset}px)`;
+
+            indicatorDots.forEach(dot => dot.classList.remove('active'));
+            const currentIndicator = Math.floor(currentIndex1 / visibleCards);
+            indicatorDots[currentIndicator % totalIndicators].classList.add('active');
+        }
+
+        document.querySelector('.right-button').addEventListener('click', nextSlide);
+        document.querySelector('.left-button').addEventListener('click', prevSlide);
+
+        indicatorDots.forEach((dot, index) => {
+            dot.addEventListener('click', () => {
+            currentIndex1 = index * visibleCards;
+            updateSlider();
+        });
+    });
+
+setInterval(nextSlide, 5000);
+</script>
+</body>
+</html>
